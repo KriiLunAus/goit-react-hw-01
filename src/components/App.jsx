@@ -1,13 +1,18 @@
 import './App.css'
-import Product from './Product'
+import Alert from './Alert'
+
 
 export default function App() {
   return (
-    <div>
-      <h1>Products</h1>
-      <Product />
-      <Product />
-      <Product />
+     <div>
+      <Alert variant="error">
+        You stupid
+      </Alert>
+      <Alert variant="info">
+        You are not stupid
+      </Alert>
     </div>
   );
 }
+
+
