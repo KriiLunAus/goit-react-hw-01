@@ -1,16 +1,16 @@
 import './App.css'
-import Alert from './Alert'
-
+import { Hello } from './Hi';
 
 export default function App() {
   return (
      <div>
-      <Alert variant="error">
-        You stupid
+      <Hello />
+      {/* <Alert variant = "info" outlined={true} elevated={true}>
+        you suck at cooking
       </Alert>
-      <Alert variant="info">
-        You are not stupid
-      </Alert>
+      <Alert variant="success" outlined={true}>
+        Would you like to browse our recommended products?
+      </Alert> */}
     </div>
   );
 }
