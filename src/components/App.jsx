@@ -1,18 +1,20 @@
-import './App.css'
-import { Hello } from './Hi';
+import './App.module.css'
+import { Profile } from './Profile';
+import userData from "../userData.json";
 
-export default function App() {
+
+const App = () => {
   return (
-     <div>
-      <Hello />
-      {/* <Alert variant = "info" outlined={true} elevated={true}>
-        you suck at cooking
-      </Alert>
-      <Alert variant="success" outlined={true}>
-        Would you like to browse our recommended products?
-      </Alert> */}
-    </div>
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
   );
-}
+};
 
-
+export default App;

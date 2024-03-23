@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profileImage {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin-inline: auto;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+
+.tag,
+.location {
+  color: grey;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats > li {
+  display: block;
+  width: 75px;
+  border: 1px solid grey;
+  color: black;
+}
