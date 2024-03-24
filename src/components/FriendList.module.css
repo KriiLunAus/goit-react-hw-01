@@ -1,0 +1,26 @@
+.list {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+}
+
+.listElement {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: beige;
+  color: black;
+  text-align: center;
+}
+
+.listElementInnerWrapper > img {
+  margin-bottom: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

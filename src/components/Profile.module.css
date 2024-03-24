@@ -1,9 +1,11 @@
 .wrapper {
+  width: fit-content;
   background-color: aliceblue;
   border: 2px solid black;
   border-radius: 10px;
   text-align: center;
   overflow: hidden;
+  margin-inline: auto;
 }
 
 .profileImage {
