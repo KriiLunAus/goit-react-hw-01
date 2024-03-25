@@ -9,7 +9,6 @@ const colorOfElement = (isOnline => {
 })
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
-    {console.log(colorOfElement(isOnline))}
     return (
     <div className={css.listElementInnerWrapper}>
         <img src={ avatar} alt="Avatar" width="48" />

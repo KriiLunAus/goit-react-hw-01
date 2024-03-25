@@ -1,8 +1,10 @@
 import './App.module.css'
-import Profile from './Profile';
-import FriendList from './FriendList';
+import {Profile} from './Profile';
+import {FriendList} from './FriendList';
+import {TransactionsHistory} from './TransactionsHistory.jsx';
 import userData from "../userData.json";
 import friends from "../friends.json"
+import transactions from "../transactions.json"
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />  
+
+      <TransactionsHistory items={transactions} />
     </>
 
 

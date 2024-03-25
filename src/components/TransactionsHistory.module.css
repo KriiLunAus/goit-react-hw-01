@@ -1,0 +1,26 @@
+.transactionsTable {
+  margin-top: 100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactionsTable th,
+.transactionsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactionsTable th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.transactionsTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.transactionsTable tbody tr {
+  text-transform: capitalize;
+  text-align: center;
+}
