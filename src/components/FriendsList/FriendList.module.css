@@ -12,15 +12,3 @@
   color: black;
   text-align: center;
 }
-
-.listElementInnerWrapper > img {
-  margin-bottom: 10px;
-}
-
-.red {
-  color: red;
-}
-
-.green {
-  color: green;
-}
